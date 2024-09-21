@@ -1,0 +1,123 @@
+/* Main container */
+.contact-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .contact-page h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-page .intro-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+  }
+  
+  .contact-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  /* Contact Info section */
+  .contact-info {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .contact-info p {
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  .contact-info i {
+    margin-right: 10px;
+    font-size: 30px;
+    color: #333;
+  }
+  
+  /* Contact form */
+  .contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-form input, 
+  .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size:16px;
+  }
+  
+  .contact-form textarea {
+    height: 150px;
+    resize: none;
+  }
+  .formsname{
+    margin-right: 65%;
+    font-size:medium;
+   margin-bottom: 0px;
+  }
+
+  .formsnames{
+    margin-right: 90%;
+    font-size:medium;
+  }
+
+  .contact-form button {
+    padding: 15px;
+    background-color: #a5803c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background-color: #8d6a2c;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-content {
+      flex-direction: column;
+      align-items: center;
+      font-size: x-large;
+    }
+  
+    .contact-info{
+      width: 100%;
+      max-width: 600px;
+      text-align:right;
+      font-size:7px;
+    }
+    .contact-form {
+        font-size:7px;
+        text-align:right;
+        
+    }
+
+    .contact-info {
+      text-align: center;
+     font-size: x-large;
+
+    }
+  
+    .contact-info p {
+      text-align: center;
+      font-size: x-large;
+    }
+  }
